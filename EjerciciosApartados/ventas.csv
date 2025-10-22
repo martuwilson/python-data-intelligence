@@ -1,0 +1,10 @@
+mes,producto,categoria,unidades_vendidas,precio_unitario,ciudad,vendedor
+Ene,Notebook,Electrónica,15,350000,Buenos Aires,Juan
+Ene,Mouse,Electrónica,120,4500,Córdoba,Ana
+Ene,Zapatillas,Indumentaria,40,75000,Rosario,Pedro
+Feb,Notebook,Electrónica,10,345000,Córdoba,Juan
+Feb,Mouse,Electrónica,135,4800,Rosario,Ana
+Feb,Zapatillas,Indumentaria,60,73000,Buenos Aires,Pedro
+Mar,Notebook,Electrónica,20,340000,Rosario,Juan
+Mar,Mouse,Electrónica,100,5000,Buenos Aires,Ana
+Mar,Zapatillas,Indumentaria,55,76000,Córdoba,Pedro
