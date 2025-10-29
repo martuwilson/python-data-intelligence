@@ -1,0 +1,351 @@
+customer_id,city,age,signup_date,preferred_channel,loyalty_tier
+C5000,Buenos Aires,61,2022-03-31,app,
+C5001,Rosario,35,2022-04-12,tienda,Bronze
+C5002,Mendoza,23,2022-05-27,web,Silver
+C5003,Buenos Aires,35,2022-04-27,web,Bronze
+C5004,Rosario,36,2022-08-19,tienda,Silver
+C5005,Buenos Aires,39,2022-04-18,web,Platinum
+C5006,San Isidro,54,2022-06-30,app,Gold
+C5007,Córdoba,49,2022-10-03,app,Silver
+C5008,La Plata,58,2022-07-17,app,Bronze
+C5009,Rosario,20,2022-09-18,web,Gold
+C5010,Buenos Aires,45,2022-06-12,,Silver
+C5011,Rosario,27,2022-05-31,app,Bronze
+C5012,San Isidro,68,2022-03-31,app,Bronze
+C5013,Rosario,52,2022-06-05,web,
+C5014,La Plata,46,2022-08-12,app,Silver
+C5015,Mar del Plata,32,2022-05-19,web,Gold
+C5016,Buenos Aires,50,2022-08-23,app,Gold
+C5017,Buenos Aires,24,2022-07-21,,Silver
+C5018,Rosario,29,2022-06-06,tienda,Silver
+C5019,Córdoba,66,2022-04-23,web,Bronze
+C5020,La Plata,47,2022-02-16,web,Bronze
+C5021,Mar del Plata,38,2022-08-17,web,Bronze
+C5022,Buenos Aires,48,2022-02-18,,Silver
+C5023,Buenos Aires,41,2022-10-22,tienda,
+C5024,La Plata,37,2022-04-07,tienda,Gold
+C5025,Buenos Aires,54,2022-11-12,web,Bronze
+C5026,La Plata,21,2022-06-02,web,Silver
+C5027,Córdoba,45,2022-06-25,app,Silver
+C5028,Mendoza,61,2022-03-10,tienda,Silver
+C5029,Buenos Aires,37,2022-03-09,app,Silver
+C5030,Rosario,41,2022-02-06,web,Bronze
+C5031,Córdoba,67,2022-07-09,web,Silver
+C5032,Rosario,66,2022-03-13,app,Bronze
+C5033,Buenos Aires,68,2022-03-16,web,Bronze
+C5034,,49,2022-06-06,app,Bronze
+C5035,Mar del Plata,58,2022-12-22,web,Silver
+C5036,Buenos Aires,53,2022-06-11,app,Platinum
+C5037,Buenos Aires,51,2022-04-05,web,Silver
+C5038,Buenos Aires,53,2022-05-24,app,Silver
+C5039,Mendoza,19,2022-06-01,app,Silver
+C5040,Rosario,32,2022-05-09,app,Silver
+C5041,Rosario,51,2022-06-06,web,Bronze
+C5042,Buenos Aires,53,2022-08-12,app,Bronze
+C5043,Córdoba,23,2022-07-05,app,
+C5044,Rosario,56,2022-05-01,app,Bronze
+C5045,Córdoba,59,2022-08-16,app,Bronze
+C5046,San Isidro,68,2022-04-06,app,Bronze
+C5047,Buenos Aires,68,2022-07-15,tienda,Bronze
+C5048,Mendoza,29,2022-06-02,web,Platinum
+C5049,Córdoba,20,2022-03-31,tienda,
+C5050,Córdoba,62,2022-02-05,app,Bronze
+C5051,Mendoza,35,2022-04-29,web,Bronze
+C5052,Mendoza,57,2022-10-29,web,Silver
+C5053,San Isidro,38,2022-07-13,web,Bronze
+C5054,Buenos Aires,32,2022-02-10,app,Bronze
+C5055,Buenos Aires,50,2022-09-02,,Silver
+C5056,Mendoza,52,2022-03-04,app,Bronze
+C5057,Rosario,43,2022-07-17,app,Bronze
+C5058,Buenos Aires,25,2022-04-15,web,Bronze
+C5059,Buenos Aires,53,2022-03-11,,Bronze
+C5060,Buenos Aires,65,2022-06-10,web,Bronze
+C5061,Mar del Plata,47,2022-08-16,web,Bronze
+C5062,Buenos Aires,40,2022-05-26,web,Gold
+C5063,Buenos Aires,59,2022-07-04,web,Silver
+C5064,Buenos Aires,61,2022-06-19,app,Silver
+C5065,Buenos Aires,31,2022-11-27,app,Bronze
+C5066,Buenos Aires,31,2022-03-29,tienda,Gold
+C5067,Rosario,19,2022-07-21,tienda,Bronze
+C5068,Buenos Aires,54,2022-08-25,app,Bronze
+C5069,La Plata,22,2022-08-02,web,
+C5070,Buenos Aires,55,2022-05-13,app,Bronze
+C5071,Rosario,62,2022-07-06,app,Bronze
+C5072,Mar del Plata,58,2023-01-04,web,Silver
+C5073,Mendoza,64,2022-02-12,web,Gold
+C5074,Rosario,31,2022-04-17,tienda,Bronze
+C5075,Buenos Aires,56,2022-06-17,web,Silver
+C5076,Buenos Aires,42,2022-05-22,app,Platinum
+C5077,Mendoza,37,2022-03-23,app,Bronze
+C5078,San Isidro,19,2022-04-18,web,Bronze
+C5079,Mendoza,56,2022-04-22,web,Bronze
+C5080,Rosario,23,2022-03-12,web,Bronze
+C5081,Mendoza,34,2022-07-11,web,Bronze
+C5082,Córdoba,42,2022-07-26,web,Gold
+C5083,Buenos Aires,45,2022-04-17,tienda,Silver
+C5084,Rosario,19,2022-04-11,web,Silver
+C5085,San Isidro,52,2022-08-07,app,Bronze
+C5086,Buenos Aires,54,2022-02-20,web,Gold
+C5087,Mendoza,22,2022-07-13,tienda,Platinum
+C5088,Buenos Aires,18,2022-06-20,web,Gold
+C5089,Rosario,57,2022-12-26,web,Bronze
+C5090,Buenos Aires,29,2022-02-25,tienda,Silver
+C5091,Córdoba,53,2022-04-07,tienda,Bronze
+C5092,La Plata,62,2022-05-31,web,Bronze
+C5093,Buenos Aires,40,2022-02-15,tienda,Bronze
+C5094,Mendoza,64,2022-04-06,app,
+C5095,La Plata,48,2022-11-16,app,Silver
+C5096,Mar del Plata,28,2022-05-25,web,Bronze
+C5097,Buenos Aires,27,2022-08-08,,Bronze
+C5098,Córdoba,20,2022-08-27,app,Bronze
+C5099,Buenos Aires,31,2022-07-23,app,Bronze
+C5100,San Isidro,33,2022-03-29,web,Bronze
+C5101,Mar del Plata,27,2022-06-03,app,Bronze
+C5102,Rosario,46,2022-03-27,app,Silver
+C5103,Mar del Plata,27,2022-05-31,web,Bronze
+C5104,Rosario,29,2023-03-11,app,Bronze
+C5105,Rosario,47,2022-10-11,web,Bronze
+C5106,Buenos Aires,58,2022-04-24,app,Gold
+C5107,La Plata,18,2022-11-17,app,Silver
+C5108,Buenos Aires,22,2022-07-09,tienda,Silver
+C5109,La Plata,37,2022-05-19,,Bronze
+C5110,La Plata,25,2022-06-23,web,Silver
+C5111,Mendoza,60,2022-08-07,web,Bronze
+C5112,Buenos Aires,29,2022-03-01,web,Silver
+C5113,Buenos Aires,18,2022-05-08,web,Gold
+C5114,Buenos Aires,37,2022-04-26,tienda,Silver
+C5115,Buenos Aires,45,2022-09-17,web,Gold
+C5116,Buenos Aires,60,2022-07-24,web,Silver
+C5117,Mar del Plata,54,2022-05-03,app,Bronze
+C5118,Rosario,64,2022-04-24,web,Gold
+C5119,Buenos Aires,54,2022-04-24,app,Bronze
+C5120,Córdoba,29,2022-08-21,web,Silver
+C5121,Córdoba,54,2022-02-25,app,Bronze
+C5122,,66,2022-10-11,web,Bronze
+C5123,Rosario,66,2022-07-06,web,Bronze
+C5124,Mar del Plata,61,2022-09-30,tienda,Bronze
+C5125,Córdoba,45,2022-02-26,web,Bronze
+C5126,San Isidro,64,2022-01-21,app,Silver
+C5127,Mar del Plata,32,2022-07-05,web,Bronze
+C5128,Buenos Aires,23,2022-02-27,web,Bronze
+C5129,Mar del Plata,61,2022-08-30,tienda,Silver
+C5130,Buenos Aires,37,2022-04-10,web,Bronze
+C5131,La Plata,67,2022-06-02,app,Silver
+C5132,Córdoba,31,2022-03-01,tienda,Silver
+C5133,Mar del Plata,19,2022-09-06,app,Gold
+C5134,Mar del Plata,26,2022-06-10,tienda,Silver
+C5135,La Plata,54,2022-03-21,web,Bronze
+C5136,La Plata,37,2022-03-18,,Silver
+C5137,Buenos Aires,43,2022-04-18,web,Bronze
+C5138,Buenos Aires,46,2022-09-09,app,Bronze
+C5139,Córdoba,18,2022-09-04,tienda,Silver
+C5140,Buenos Aires,52,2022-04-29,web,Bronze
+C5141,Mendoza,23,2022-06-15,app,Silver
+C5142,Buenos Aires,54,2022-12-01,web,Gold
+C5143,San Isidro,22,2022-11-02,app,Gold
+C5144,Mendoza,50,2022-05-26,app,Gold
+C5145,La Plata,66,2022-06-05,tienda,Bronze
+C5146,Buenos Aires,68,2022-05-14,app,Bronze
+C5147,Mar del Plata,31,2022-10-11,web,Silver
+C5148,Mar del Plata,29,2022-06-06,web,Bronze
+C5149,Córdoba,59,2022-05-08,web,Silver
+C5150,Rosario,37,2022-08-28,web,Silver
+C5151,,67,2022-05-29,web,Silver
+C5152,Buenos Aires,41,2022-03-04,tienda,Bronze
+C5153,Rosario,60,2022-08-22,app,Bronze
+C5154,Córdoba,51,2022-06-10,app,Bronze
+C5155,Buenos Aires,42,2022-09-22,web,Bronze
+C5156,Buenos Aires,67,2022-07-01,tienda,Gold
+C5157,Buenos Aires,46,2022-05-07,app,Bronze
+C5158,Buenos Aires,56,2022-03-21,web,Bronze
+C5159,Buenos Aires,48,2022-10-05,app,Bronze
+C5160,San Isidro,64,2022-08-02,app,Silver
+C5161,Rosario,60,2022-06-23,web,Silver
+C5162,San Isidro,67,2022-08-12,app,Bronze
+C5163,Córdoba,40,2022-03-01,app,Bronze
+C5164,Buenos Aires,61,2022-09-10,web,Bronze
+C5165,Rosario,55,2022-09-15,tienda,Bronze
+C5166,Córdoba,37,2022-04-12,tienda,Silver
+C5167,,40,2022-05-02,app,Silver
+C5168,Mendoza,62,2022-06-17,app,Bronze
+C5169,Buenos Aires,69,2022-03-08,web,Bronze
+C5170,Rosario,33,2022-05-18,app,
+C5171,,67,2022-08-12,app,Bronze
+C5172,Buenos Aires,59,2022-09-01,web,Silver
+C5173,Buenos Aires,25,2022-03-24,app,Bronze
+C5174,La Plata,67,2022-12-06,tienda,Bronze
+C5175,Córdoba,38,2022-09-06,app,Bronze
+C5176,Buenos Aires,18,2022-09-11,web,Silver
+C5177,San Isidro,25,2022-05-27,app,Platinum
+C5178,Buenos Aires,46,2022-10-05,web,Bronze
+C5179,Mendoza,49,2022-11-30,web,Bronze
+C5180,San Isidro,55,2022-05-26,web,Bronze
+C5181,Buenos Aires,22,2022-03-30,web,Bronze
+C5182,Buenos Aires,64,2022-03-29,app,
+C5183,Buenos Aires,39,2022-05-20,app,Bronze
+C5184,Buenos Aires,64,2023-02-07,web,Silver
+C5185,Buenos Aires,51,2022-10-10,tienda,Bronze
+C5186,Mendoza,18,2022-04-22,tienda,Bronze
+C5187,Buenos Aires,43,2022-06-08,tienda,Gold
+C5188,Rosario,60,2022-05-11,web,Bronze
+C5189,San Isidro,27,2022-08-08,app,Platinum
+C5190,La Plata,47,2022-05-18,tienda,
+C5191,Rosario,67,2022-05-18,app,Gold
+C5192,Buenos Aires,35,2022-07-13,web,Silver
+C5193,Rosario,34,2022-02-19,web,Gold
+C5194,Rosario,43,2022-05-18,app,Platinum
+C5195,Córdoba,25,2022-06-15,tienda,Bronze
+C5196,Buenos Aires,64,2022-06-15,app,Platinum
+C5197,Mar del Plata,57,2022-04-23,app,Bronze
+C5198,Córdoba,66,2023-02-07,web,Bronze
+C5199,,29,2022-11-10,app,Bronze
+C5200,Buenos Aires,44,2022-04-10,,Silver
+C5201,Córdoba,25,2022-08-24,web,Bronze
+C5202,La Plata,42,2022-04-16,app,Silver
+C5203,Mendoza,63,2022-06-13,tienda,Silver
+C5204,La Plata,21,2022-12-18,web,Silver
+C5205,Buenos Aires,50,2022-07-26,app,Gold
+C5206,Córdoba,18,2022-09-26,web,Bronze
+C5207,Córdoba,36,2022-05-30,app,Bronze
+C5208,Buenos Aires,48,2022-05-28,app,Bronze
+C5209,Buenos Aires,33,2022-05-07,app,Bronze
+C5210,La Plata,31,2022-06-06,,Bronze
+C5211,Buenos Aires,65,2022-03-12,web,Bronze
+C5212,Rosario,22,2023-03-27,tienda,Bronze
+C5213,Buenos Aires,58,2022-04-03,app,Platinum
+C5214,Buenos Aires,43,2022-07-19,web,Silver
+C5215,Buenos Aires,45,2022-07-22,app,Bronze
+C5216,San Isidro,19,2022-08-05,app,
+C5217,La Plata,67,2023-01-22,web,Bronze
+C5218,San Isidro,23,2022-06-24,tienda,Bronze
+C5219,Córdoba,26,2022-04-01,tienda,Silver
+C5220,Buenos Aires,50,2023-04-18,web,Bronze
+C5221,,58,2022-02-08,tienda,Bronze
+C5222,Córdoba,42,2022-03-10,web,Platinum
+C5223,Mar del Plata,65,2023-01-01,web,Gold
+C5224,Buenos Aires,30,2022-07-07,web,Silver
+C5225,Córdoba,26,2022-08-27,tienda,Silver
+C5226,Buenos Aires,30,2022-05-13,app,Silver
+C5227,Buenos Aires,48,2022-04-26,web,Bronze
+C5228,Mendoza,58,2022-03-15,web,Bronze
+C5229,Córdoba,28,2023-03-26,app,Bronze
+C5230,Buenos Aires,21,2022-04-13,web,Bronze
+C5231,Córdoba,51,2022-05-08,tienda,Silver
+C5232,Córdoba,55,2022-04-12,tienda,Bronze
+C5233,La Plata,63,2022-05-26,app,Platinum
+C5234,Mar del Plata,21,2022-05-17,tienda,Gold
+C5235,San Isidro,55,2022-07-23,web,Silver
+C5236,La Plata,36,2022-11-05,tienda,Silver
+C5237,Buenos Aires,23,2022-03-27,app,Gold
+C5238,Mendoza,51,2022-05-07,app,Bronze
+C5239,Córdoba,35,2022-07-14,web,Silver
+C5240,Buenos Aires,30,2022-02-27,tienda,Bronze
+C5241,Mar del Plata,58,2022-08-09,web,Silver
+C5242,Buenos Aires,40,2022-06-13,web,Bronze
+C5243,Mar del Plata,36,2022-05-16,web,Gold
+C5244,Córdoba,62,2022-04-12,app,Gold
+C5245,Rosario,28,2022-05-18,app,Bronze
+C5246,Mendoza,18,2022-04-22,app,Bronze
+C5247,Mar del Plata,41,2022-07-05,tienda,Platinum
+C5248,Rosario,24,2022-07-09,web,Bronze
+C5249,Rosario,42,2023-03-10,app,Gold
+C5250,Buenos Aires,38,2022-07-05,web,Silver
+C5251,Rosario,32,2023-01-29,tienda,Bronze
+C5252,Buenos Aires,18,2022-04-12,tienda,Bronze
+C5253,Mendoza,29,2022-02-03,app,Bronze
+C5254,Rosario,24,2022-03-31,app,Silver
+C5255,Mendoza,32,2022-05-22,web,Bronze
+C5256,Buenos Aires,38,2022-05-13,app,Silver
+C5257,Buenos Aires,36,2022-03-26,tienda,Bronze
+C5258,,46,2022-04-01,app,Silver
+C5259,Buenos Aires,42,2022-05-31,web,Gold
+C5260,Buenos Aires,50,2022-04-14,app,Platinum
+C5261,,66,2022-08-16,tienda,Bronze
+C5262,San Isidro,49,2022-05-30,web,Gold
+C5263,Mendoza,66,2022-09-06,web,Silver
+C5264,Buenos Aires,52,2022-06-07,app,Silver
+C5265,,61,2022-04-30,tienda,Platinum
+C5266,Buenos Aires,55,2022-07-12,web,Bronze
+C5267,La Plata,43,2022-03-16,web,Bronze
+C5268,Mendoza,28,2022-04-07,web,Gold
+C5269,Buenos Aires,52,2022-03-28,web,Bronze
+C5270,,25,2022-07-17,app,Gold
+C5271,Buenos Aires,63,2022-08-30,app,Gold
+C5272,Mendoza,31,2022-05-20,app,Bronze
+C5273,La Plata,27,2022-06-14,app,Gold
+C5274,Buenos Aires,19,2022-05-16,web,Bronze
+C5275,Buenos Aires,63,2022-04-03,tienda,Silver
+C5276,Buenos Aires,26,2022-08-12,app,Silver
+C5277,San Isidro,20,2022-07-22,tienda,Gold
+C5278,Buenos Aires,38,2022-02-14,app,Bronze
+C5279,La Plata,43,2022-04-29,web,Bronze
+C5280,Rosario,25,2022-04-12,app,Silver
+C5281,Córdoba,65,2022-05-02,web,Silver
+C5282,Buenos Aires,19,2022-09-06,app,Silver
+C5283,Buenos Aires,23,2022-04-19,web,Bronze
+C5284,Rosario,45,2022-07-07,web,Bronze
+C5285,La Plata,46,2022-07-07,tienda,Bronze
+C5286,Mendoza,43,2022-04-16,web,Gold
+C5287,Rosario,42,2022-04-17,tienda,Bronze
+C5288,Buenos Aires,29,2022-12-14,web,
+C5289,San Isidro,22,2022-04-14,app,Platinum
+C5290,La Plata,51,2022-05-15,app,Bronze
+C5291,Buenos Aires,65,2022-04-18,app,Platinum
+C5292,San Isidro,54,2022-07-30,web,Silver
+C5293,Rosario,32,2022-07-24,web,
+C5294,Rosario,61,2022-05-24,web,Bronze
+C5295,La Plata,53,2022-09-28,web,Bronze
+C5296,La Plata,32,2022-06-05,app,Silver
+C5297,Mendoza,60,2022-04-08,tienda,Gold
+C5298,Buenos Aires,65,2022-07-30,tienda,Silver
+C5299,Buenos Aires,40,2022-07-02,app,Bronze
+C5300,Mar del Plata,23,2022-06-16,app,Silver
+C5301,Buenos Aires,63,2022-05-02,app,Silver
+C5302,Buenos Aires,67,2022-10-28,web,Silver
+C5303,Córdoba,61,2022-08-20,tienda,Silver
+C5304,,60,2022-08-11,app,Gold
+C5305,Rosario,62,2022-07-08,,
+C5306,San Isidro,38,2022-11-18,web,Bronze
+C5307,Buenos Aires,40,2022-04-27,,Bronze
+C5308,Buenos Aires,60,2022-04-23,app,Bronze
+C5309,Buenos Aires,33,2022-11-06,tienda,Bronze
+C5310,Mar del Plata,64,2022-01-27,,Bronze
+C5311,Mendoza,32,2022-07-09,web,Bronze
+C5312,Buenos Aires,42,2022-05-08,tienda,Bronze
+C5313,La Plata,53,2022-11-08,web,Bronze
+C5314,Mar del Plata,28,2022-10-22,web,Gold
+C5315,Mar del Plata,68,2022-04-17,web,Gold
+C5316,Mar del Plata,32,2022-04-24,app,Bronze
+C5317,Buenos Aires,21,2022-03-03,tienda,Platinum
+C5318,La Plata,38,2022-12-21,web,Silver
+C5319,Córdoba,30,2022-12-21,tienda,Bronze
+C5320,Mar del Plata,39,2022-04-30,web,Bronze
+C5321,Mendoza,36,2022-08-16,tienda,Silver
+C5322,La Plata,51,2022-09-25,app,Silver
+C5323,Mendoza,31,2022-06-17,tienda,Silver
+C5324,Buenos Aires,21,2022-07-05,web,Bronze
+C5325,Rosario,65,2022-06-09,tienda,Bronze
+C5326,San Isidro,69,2022-03-29,app,Bronze
+C5327,Mar del Plata,63,2022-04-15,web,Bronze
+C5328,Buenos Aires,44,2022-03-17,tienda,Bronze
+C5329,Buenos Aires,46,2022-06-01,web,Bronze
+C5330,Buenos Aires,64,2022-04-05,tienda,Gold
+C5331,Mendoza,45,2022-04-24,web,Gold
+C5332,La Plata,52,2022-09-03,app,Bronze
+C5333,Buenos Aires,25,2022-07-20,app,Gold
+C5334,Rosario,33,2022-03-25,web,Bronze
+C5335,Mar del Plata,59,2022-06-25,web,Bronze
+C5336,Mendoza,53,2022-06-07,web,Bronze
+C5337,Rosario,47,2022-11-16,app,Silver
+C5338,Rosario,35,2022-10-08,web,Platinum
+C5339,Rosario,19,2022-09-24,app,Silver
+C5340,Buenos Aires,66,2022-07-13,web,Bronze
+C5341,Rosario,30,2022-07-22,web,Silver
+C5342,Mendoza,21,2022-12-23,app,Bronze
+C5343,Mar del Plata,43,2022-04-17,web,Gold
+C5344,,42,2022-05-25,,Silver
+C5345,La Plata,47,2022-07-22,tienda,Bronze
+C5346,Buenos Aires,28,2022-10-30,app,Silver
+C5347,Córdoba,24,2022-02-26,app,Silver
+C5348,Buenos Aires,48,2022-09-01,tienda,Bronze
+C5349,,61,2022-05-13,web,Silver
