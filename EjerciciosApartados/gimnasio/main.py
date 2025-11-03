@@ -73,3 +73,39 @@ df['categoria_imc'] = np.select(condiciones, categorias, default='Desconocido')
 # 3 - Calculá una columna antiguedad_meses con cuántos meses lleva cada socio activo:
 df['antiguedad_meses'] = ((pd.Timestamp.now() - df['fecha_registro']).dt.days / 30).astype(int)
 
+# PARTE 4 - Agrupaciones y estadísticas
+""" 1 Mostrá el promedio de asistencias mensuales por plan.
+
+2 Mostrá el IMC promedio por sexo.
+
+3 Identificá:
+
+ a- El socio con mayor cantidad de asistencias.
+
+ b- El socio con mayor IMC.
+
+4 - Calculá la correlación entre edad, asistencias_mes, imc y antiguedad_meses. """
+
+# 1 - Promedio de asistencias mensuales por plan
+promedios_asistencia_plan = df.groupby('plan')['asistencias_mes'].mean().round(2)
+print("Promedio de asistencias mensuales por plan:")
+print(promedios_asistencia_plan)
+
+# 2 - IMC promedio por sexo
+imc_promedio_sexo = df.groupby('sexo')['imc'].mean().round(2)
+print("\nIMC promedio por sexo:")
+print(imc_promedio_sexo)
+
+# 3a - Socio con mayor cantidad de asistencias
+socio_mas_asistencias = df.loc[df['asistencias_mes'].idxmax()]
+print("\nSocio con mayor cantidad de asistencias mensuales:")
+print(socio_mas_asistencias[['nombre', 'asistencias_mes']])
+# 3b - Socio con mayor IMC
+socio_mayor_imc = df.loc[df['imc'].idxmax()]
+print("\nSocio con mayor IMC:")
+print(socio_mayor_imc[['nombre', 'imc']])
+# 4 - Correlación entre edad, asistencias_mes, imc y antiguedad_meses
+correlacion = df[['edad', 'asistencias_mes', 'imc', 'antiguedad_meses']].corr() # corr -> calcula la correlacion entre columnas numericas
+print("\nCorrelación entre edad, asistencias_mes, imc y antiguedad_meses:")
+print(correlacion)
+
