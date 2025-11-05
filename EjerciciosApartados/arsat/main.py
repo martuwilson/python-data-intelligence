@@ -84,7 +84,7 @@ for key, df in dataframes.items():
         print(f"\n--- {key.upper()} BRECHA SALARIAL ---")
         print(f"La brecha salarial en {key} es: ${brecha:,.2f}")
 
-# VISUALIZACIONES PARA LINKEDIN (layout 2x2 — eliminadas las gráficas de aumento porcentual promedio y boxplot)
+
 plt.style.use('default')
 sectores = list(dataframes.keys())
 colors = ['#2E86AB', '#A23B72', '#F18F01', '#C73E1D', '#7209B7']
