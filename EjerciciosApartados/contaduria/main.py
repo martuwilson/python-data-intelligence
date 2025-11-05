@@ -117,7 +117,7 @@ gastos_df['nivel_rentabilidad'] = np.select(condiciones, categorias, default='De
 #PARTE 4
 # Margen operativo promedio por pais
 margen_promedio_pais = gastos_df.groupby('pais')['margen_operativo_usd'].mean().round(2)
-print("Margen operativo promedio por país:\n", margen_promedio_pais)
+#print("Margen operativo promedio por país:\n", margen_promedio_pais)
 
 # clasificacion de margen promedio por pais 
 clasificacion_margen = pd.DataFrame({
@@ -135,12 +135,12 @@ categorias_clasificacion = ['Pérdida', 'Margen Bajo', 'Rentable']
 
 clasificacion_margen['clasificacion'] = np.select(condiciones_clasificacion, categorias_clasificacion, default='Desconocido')
 
-print("\nClasificación de países según margen operativo promedio:\n", clasificacion_margen)
+#print("\nClasificación de países según margen operativo promedio:\n", clasificacion_margen)
 
 # Mostrar el gasto total por mes (ya normalizado).
 
 gasto_total_mes = gastos_df.groupby('mes')['gastos_local'].sum().round(2)
-print("\nGasto total por mes (normalizado):\n", gasto_total_mes)
+#print("\nGasto total por mes (normalizado):\n", gasto_total_mes)
 
 # Identificar el centro de costo con mayor margen total.
 #1 - Calcular el margen total por centro de costo
@@ -155,7 +155,7 @@ valor_mayor_margen = margen_total_centro.max()
 #4 saber de donde es el centro de costo
 centro_info = gastos_df[gastos_df['centro_costo'] == centro_mayor_margen].iloc[0]
 pais_centro = centro_info['pais']
-print(f"\nCentro de costo con mayor margen total: {centro_mayor_margen} en {pais_centro} con un margen de {valor_mayor_margen:.2f} USD")
+#print(f"\nCentro de costo con mayor margen total: {centro_mayor_margen} en {pais_centro} con un margen de {valor_mayor_margen:.2f} USD")
 
 # Calcular el porcentaje de gastos sobre ingresos (gastos/ingresos * 100) por país.
 
@@ -163,7 +163,7 @@ gastos_ingresos_pais = gastos_df.groupby('pais').apply(
     lambda x: (x['gastos_operativos_usd'].sum() / x['ingresos_usd'].sum()) * 100 if x['ingresos_usd'].sum() != 0 else np.nan
 ).round(2)
 
-print("\nPorcentaje de gastos sobre ingresos por país:\n", gastos_ingresos_pais)
+#print("\nPorcentaje de gastos sobre ingresos por país:\n", gastos_ingresos_pais)
 
 # Mostrar los 3 países más rentables y los 3 menos rentables.
 
@@ -172,5 +172,48 @@ pais_rentabilidad_ordenado = pais_rentabilidad.sort_values(ascending=False)
 top_3_rentables = pais_rentabilidad_ordenado.head(3)
 top_3_menos_rentables = pais_rentabilidad_ordenado.tail(3)
 
-print("\nTop 3 países más rentables:\n", top_3_rentables)
-print("\nTop 3 países menos rentables:\n", top_3_menos_rentables)
+#print("\nTop 3 países más rentables:\n", top_3_rentables)
+#print("\nTop 3 países menos rentables:\n", top_3_menos_rentables)
+
+
+## PARTE 5 - Visualización de resultados
+#Gráfico de barras: gastos_operativos_usd promedio por país.
+gastos_promedio_pais = gastos_df.groupby('pais')['gastos_operativos_usd'].mean().round(2)
+plt.figure(figsize=(10, 6))
+gastos_promedio_pais.plot(kind='bar', color='skyblue')
+plt.title('Gastos Operativos Promedio por País')
+plt.xlabel('País')
+plt.ylabel('Gastos Operativos Promedio (USD)')
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+
+# Gráfico de líneas: ingresos_usd promedio por mes.
+ingresos_promedio_mes = gastos_df.groupby('mes')['ingresos_usd'].mean().round(2)
+plt.figure(figsize=(10, 6))
+ingresos_promedio_mes.plot(kind='line', marker='o', color='orange')
+plt.title('Ingresos Promedio por Mes')
+plt.xlabel('Mes')
+plt.ylabel('Ingresos Promedio (USD)')
+plt.xticks(rotation=45)
+plt.grid()
+plt.tight_layout()
+
+#Gráfico de dispersión: relación entre gastos e ingresos.
+plt.figure(figsize=(10, 6))
+plt.scatter(gastos_df['ingresos_usd'], gastos_df['gastos_operativos_usd'], alpha=0.6, color='green')
+plt.title('Relación entre Ingresos y Gastos Operativos')
+plt.xlabel('Ingresos (USD)')
+plt.ylabel('Gastos Operativos (USD)')
+plt.grid()
+plt.tight_layout()
+
+#Gráfico circular: distribución de niveles de rentabilidad.
+nivel_rentabilidad_counts = gastos_df['nivel_rentabilidad'].value_counts()
+plt.figure(figsize=(8, 8))
+nivel_rentabilidad_counts.plot(kind='pie', autopct='%1.1f%%', startangle=140, colors=['red', 'yellow', 'green'])
+plt.title('Distribución de Niveles de Rentabilidad')
+plt.ylabel('')  # Ocultar la etiqueta del eje y
+plt.tight_layout()
+
+plt.show()
