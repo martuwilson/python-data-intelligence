@@ -66,3 +66,6 @@ plt.title("Distribución de niveles de asistencia")
 plt.xlabel("Nivel de asistencia")
 plt.ylabel("Cantidad de socios")
 plt.show()
+
+
+# PARTE 3 – Agrupaciones y estadísticas
