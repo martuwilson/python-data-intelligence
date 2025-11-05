@@ -48,10 +48,10 @@ obras_df = dataframes["obras"]
 operaciones_df = dataframes["operaciones"]
 
 
-for key, df in dataframes.items():
-    print(f"\n--- {key.upper()} ---")
-    print(df.dtypes)
-    print(df.head(2))
+#for key, df in dataframes.items():
+    #print(f"\n--- {key.upper()} ---")
+    #print(df.dtypes)
+    #print(df.head(2))
     
 
 #Calcular aumentos absolutos y porcentuales entre octubre y noviembre de 2025
@@ -64,8 +64,8 @@ for key, df in dataframes.items():
             np.nan
         )
         dataframes[key] = df
-        print(f"\n--- {key.upper()} AUMENTOS ---")
-        print(df[['cargo', 'oct_25', 'nov_25', 'aumento_absoluto', 'aumento_porcentual']].head(2))
+        #print(f"\n--- {key.upper()} AUMENTOS ---")
+        #print(df[['cargo', 'oct_25', 'nov_25', 'aumento_absoluto', 'aumento_porcentual']].head(2))
         
 
 #redondear los aumentos porcentuales a 2 decimales y tambien las columnas de oct_25 y nov_25 
@@ -78,5 +78,21 @@ for key, df in dataframes.items():
         df['nov_25'] = df['nov_25'].round(2)
     dataframes[key] = df
     
-    print(f"\n--- {key.upper()} REDONDEADO ---")
-    print(df[['cargo', 'oct_25', 'nov_25', 'aumento_absoluto', 'aumento_porcentual']].head(2))
+    #print(f"\n--- {key.upper()} REDONDEADO ---")
+    #print(df[['cargo', 'oct_25', 'nov_25', 'aumento_absoluto', 'aumento_porcentual']].head(2))
+    
+#Resumen general por sector
+    resumen = df[['aumento_absoluto', 'aumento_porcentual']].agg(['mean', 'min', 'max'])
+    #print(f"\n--- {key.upper()} RESUMEN GENERAL ---")
+    #print(resumen)
+
+#Ranking de cargos con mayor aumento absoluto
+    ranking = df[['cargo', 'aumento_absoluto']].sort_values('aumento_absoluto', ascending=False)
+    #print(f"\n--- {key.upper()} RANKING ---")
+    #print(ranking.head(5))
+    
+#Brecha salarial de cada sector: Te muestra qué tan desigual es cada área internamente:
+    if 'nov_25' in df.columns:
+        brecha = df['nov_25'].max() - df['nov_25'].min()
+        print(f"\n--- {key.upper()} BRECHA SALARIAL ---")
+        print(f"La brecha salarial en {key} es: ${brecha:,.2f}")
