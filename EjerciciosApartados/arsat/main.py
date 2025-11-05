@@ -31,9 +31,10 @@ for key, df in dataframes.items():
         if col in df.columns:
             df[col] = (
                 df[col]
-                .replace(r"[\$,]", "", regex=True)
-                .str.replace(".", "", regex=False)  
-                .str.replace(",", ".", regex=False)
+                .str.replace("$", "", regex=False)  # Eliminar símbolo de peso
+                .str.replace(" ", "", regex=False)  # Eliminar espacios
+                .str.replace(".", "", regex=False)  # Eliminar separador de miles (punto)
+                .str.replace(",", ".", regex=False) # Cambiar separador decimal (coma por punto)
                 .astype(float)
             )
 
@@ -51,3 +52,31 @@ for key, df in dataframes.items():
     print(f"\n--- {key.upper()} ---")
     print(df.dtypes)
     print(df.head(2))
+    
+
+#Calcular aumentos absolutos y porcentuales entre octubre y noviembre de 2025
+for key, df in dataframes.items():
+    if 'oct_25' in df.columns and 'nov_25' in df.columns:
+        df['aumento_absoluto'] = df['nov_25'] - df['oct_25']
+        df['aumento_porcentual'] = np.where(
+            df['oct_25'] != 0,
+            (df['aumento_absoluto'] / df['oct_25']) * 100,
+            np.nan
+        )
+        dataframes[key] = df
+        print(f"\n--- {key.upper()} AUMENTOS ---")
+        print(df[['cargo', 'oct_25', 'nov_25', 'aumento_absoluto', 'aumento_porcentual']].head(2))
+        
+
+#redondear los aumentos porcentuales a 2 decimales y tambien las columnas de oct_25 y nov_25 
+for key, df in dataframes.items():
+    if 'aumento_porcentual' in df.columns:
+        df['aumento_porcentual'] = df['aumento_porcentual'].round(2)
+    if 'oct_25' in df.columns:
+        df['oct_25'] = df['oct_25'].round(2)
+    if 'nov_25' in df.columns:
+        df['nov_25'] = df['nov_25'].round(2)
+    dataframes[key] = df
+    
+    print(f"\n--- {key.upper()} REDONDEADO ---")
+    print(df[['cargo', 'oct_25', 'nov_25', 'aumento_absoluto', 'aumento_porcentual']].head(2))
