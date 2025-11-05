@@ -1,0 +1,51 @@
+pais,centro_costo,responsable,mes,gastos_operativos_usd,ingresos_usd,tipo_cambio_local,fecha_reporte,observaciones
+Argentina ,CC104,María Gómez,septiembre,2202.0,7961.0,800.0,10/02/2025,nan
+México,CC102,Lucía Torres,mayo,13447.0,21482.0,18.2,10/02/2025,Error de carga
+brasil,CC106,Carlos Rojas,junio,13774.0,12158.0,800.0,2025-01-10,Revisar tipo de cambio
+Colombia,CC110,Carlos Rojas,abril,3930.0,12158.0,7.8,2025-01-10,Duplicado
+Argentina ,CC104,Juan Pérez,Julio,13447.0,9499.0,18.2,2025-01-10,
+Chile,CC118,Carlos Rojas,septiembre,2202.0,12400.0,7.8,2025/03/15,
+Argentina ,CC112,Pedro Lima,Julio,2197.0,7961.0,,nan,Duplicado
+brasil,CC102,José Hernández,enero,2202.0,7557.0,,10/02/2025,nan
+Colombia,CC110,Lucía Torres,enero,13589.0,34299.0,18.2,10/02/2025,Error de carga
+México,CC104,Carlos Rojas,septiembre,2202.0,20151.0,18.2,2025/03/15,
+brasil,CC114,Juan Pérez,septiembre,13447.0,,950.0,10/02/2025,Error de carga
+brasil,CC116,Pedro Lima,abril,17708.0,20151.0,800.0,2025-01-10,Monto inconsistente
+Chile,CC115,Ana Souza,septiembre,4327.0,,950.0,nan,Error de carga
+Perú,CC108,José Hernández,marzo,13447.0,21482.0,800.0,15-04-2025,Monto inconsistente
+Colombia,CC114,José Hernández,Julio,9777.0,6154.0,950.0,10/02/2025,Revisar tipo de cambio
+Brasil,CC108,Lucía Torres,junio,,7961.0,7.8,2025-01-10,
+brasil,CC116,José Hernández,AGOSTO,10004.0,20151.0,18.2,15-04-2025,
+Perú,CC113,Carlos Rojas,septiembre,17708.0,17183.0,,nan,
+Brasil,CC118,Juan Pérez,mayo,4327.0,7961.0,800.0,15-04-2025,nan
+Colombia,CC115,José Hernández,enero,6931.0,17183.0,800.0,2025-01-10,Monto inconsistente
+Argentina,CC113,José Hernández,marzo,10004.0,11295.0,,15-04-2025,
+Perú,CC109,Ana Souza,AGOSTO,,12400.0,950.0,2025/03/15,Error de carga
+CHILE,CC115,Ana Souza,junio,3930.0,,800.0,15-04-2025,Error de carga
+Argentina,CC113,María Gómez,AGOSTO,13774.0,7961.0,1200.0,10/02/2025,
+Chile,CC101,Pedro Lima,septiembre,9777.0,,7.8,10/02/2025,
+Argentina ,CC107,Carlos Rojas,abril,9777.0,7961.0,18.2,2025/03/15,Error de carga
+México,CC109,José Hernández,enero,6931.0,10539.0,,2025-01-10,Revisar tipo de cambio
+CHILE,CC101,José Hernández,enero,4327.0,37711.0,18.2,10/02/2025,Revisar tipo de cambio
+Chile,CC112,Juan Pérez,abril,13589.0,12400.0,1200.0,nan,
+Colombia,CC108,María Gómez,Julio,11339.0,9499.0,800.0,10/02/2025,Monto inconsistente
+Chile,CC111,Pedro Lima,febrero,2197.0,11295.0,800.0,10/02/2025,Monto inconsistente
+Argentina ,CC119,María Gómez,marzo,2202.0,9499.0,1200.0,2025-01-10,
+Colombia,CC117,Lucía Torres,enero,4327.0,21482.0,,15-04-2025,Monto inconsistente
+CHILE,CC108,Pedro Lima,mayo,13774.0,21482.0,7.8,10/02/2025,
+Argentina ,CC103,José Hernández,enero,17708.0,9499.0,3.9,2025/03/15,
+Brasil,CC103,José Hernández,AGOSTO,2197.0,9499.0,,15-04-2025,Monto inconsistente
+México,CC101,Pedro Lima,enero,17708.0,7557.0,3.9,nan,Revisar tipo de cambio
+CHILE,CC105,José Hernández,enero,9777.0,12400.0,1200.0,2025-01-10,Monto inconsistente
+Brasil,CC110,Carlos Rojas,febrero,13447.0,9499.0,950.0,nan,
+CHILE,CC107,Pedro Lima,febrero,13774.0,17183.0,3.9,15-04-2025,Duplicado
+Colombia,CC109,María Gómez,junio,,37711.0,7.8,15-04-2025,nan
+Brasil,CC107,Pedro Lima,Julio,6931.0,37711.0,950.0,15-04-2025,Error de carga
+México,CC109,José Hernández,mayo,,12158.0,3.9,nan,Duplicado
+Argentina ,CC108,Carlos Rojas,enero,17708.0,6154.0,1200.0,15-04-2025,Monto inconsistente
+brasil,CC112,Carlos Rojas,enero,11339.0,21482.0,950.0,nan,Revisar tipo de cambio
+Chile,CC102,Lucía Torres,marzo,13774.0,,1200.0,15-04-2025,
+Argentina,CC101,María Gómez,febrero,14688.0,10539.0,3.9,2025/03/15,Monto inconsistente
+México,CC116,Ana Souza,mayo,14688.0,7200.0,1200.0,15-04-2025,Revisar tipo de cambio
+Brasil,CC105,Ana Souza,junio,17708.0,7961.0,7.8,nan,nan
+brasil,CC103,Pedro Lima,Julio,3930.0,,3.9,10/02/2025,Monto inconsistente
