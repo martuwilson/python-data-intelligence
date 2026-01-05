@@ -1,0 +1,11 @@
+Numpy es una biblioteca que soporta la creación y manipulación de arreglos (arrays) y matrices multidimensionales en Python.
+Proporciona una amplia gama de funciones matemáticas para operar con estos arreglos de manera eficiente.
+
+Importancia:
+- Eficiencia en operaciones numericas y manipulación de datos.
+- Base para otras bibliotecas científicas como Pandas, SciPy y Scikit-learn
+- Facilita el manejo de grandes volúmenes de datos y calculos matemáticos complejos.
+- Muy usado por si velocidad y facilidad de uso en la comunidad científica y de ingeniería.
+
+Importacion:
+import numpy as np
