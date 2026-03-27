@@ -1,0 +1,41 @@
+order_id,customer_name,customer_email,country,city,product_category,product_name,quantity,unit_price,total_price,order_date,status,sales_rep,region
+1001,Juan Pérez,juan.perez@gmail.com,Argentina,Buenos Aires,Electronics,Laptop Dell XPS,2,1200.00,2400.00,2024-01-15,Completed,Maria Lopez,LATAM
+1002,ANA GARCIA,ana.garcia@,Mexico,Ciudad de Mexico,Clothing,Nike Air Max,,89.99,,15/01/2024,Pending,Carlos Ruiz,LATAM
+1003,Carlos López,carlos@hotmail.com,Argentina,Córdoba,Electronics,iPhone 15,1,999.00,999.00,2024-01-16,completed,Maria Lopez,LATAM
+1004,Maria Fernandez,maria.f@empresa.com,Colombia,Bogotá,Food & Beverage,Protein Shake x12,5,45.00,225.00,2024-01-16,Completed,Ana Torres,LATAM
+1005,john smith,john@company.com,USA,New York,Electronics,Samsung TV 55",-1,799.00,-799.00,2024-01-17,CANCELLED,Bob Johnson,NA
+1006,Sophie Müller,sophie@web.de,Germany,Berlin,Clothing,Adidas Ultraboost,3,180.00,540.00,17-01-2024,Completed,Hans Weber,EMEA
+1007,Pedro Ramirez,pedro.ram@gmail.com,Argentina,Buenos Aires,Electronics,Laptop Dell XPS,1,1200.00,1200.00,2024-01-18,Completed,Maria Lopez,LATAM
+1008,,info@tienda.com,Mexico,Guadalajara,Food & Beverage,Whey Protein 1kg,10,35.00,350.00,2024-01-18,Pending,Carlos Ruiz,LATAM
+1009,Roberto Silva,roberto@silva.net,Brazil,São Paulo,Electronics,iPhone 15,2,999.00,1998.00,2024-01-19,Completed,Ana Torres,LATAM
+1010,Laura Gomez,laura.gomez@gmail.com,Argentina,Mendoza,Clothing,Zara Dress,4,59.99,239.96,2024-01-19,Completed,Maria Lopez,LATAM
+1011,Kevin Lee,kevin@startup.io,USA,San Francisco,Electronics,MacBook Pro M3,1,2499.00,2499.00,2024-01-20,Completed,Bob Johnson,NA
+1012,Ana García,ana.garcia2@gmail.com,Mexico,Monterrey,Food & Beverage,Protein Shake x12,2,45.00,90.00,20-01-2024,completed,Carlos Ruiz,LATAM
+1013,Francois Dupont,francois@mail.fr,France,Paris,Clothing,Louis Vuitton Belt,1,450.00,450.00,2024-01-21,Completed,Pierre Martin,EMEA
+1014,CARLOS LOPEZ,carlos.l@hotmail.com,Argentina,Córdoba,Electronics,Samsung TV 55",2,799.00,1598.00,2024-01-21,Completed,Maria Lopez,LATAM
+1015,Julia Santos,julia@santos.com.br,Brazil,Rio de Janeiro,Clothing,Nike Air Max,3,89.99,269.97,2024-01-22,PENDING,Ana Torres,LATAM
+1016,Mike Wilson,mike.w@corp.com,USA,Chicago,Electronics,Laptop Dell XPS,5,1200.00,6500.00,2024-01-22,Completed,Bob Johnson,NA
+1017,Diego Morales,diego@morales.mx,Mexico,Ciudad de Mexico,Food & Beverage,Whey Protein 1kg,0,35.00,0.00,2024-01-23,Cancelled,Carlos Ruiz,LATAM
+1018,Elena Vasquez,elena.v@email.com,Colombia,Medellín,Electronics,iPhone 15,1,999.00,999.00,2024-01-23,Completed,Ana Torres,LATAM
+1019,Thomas Brown,thomas@brown.uk,UK,London,Clothing,Adidas Ultraboost,2,180.00,360.00,23-01-2024,Completed,Hans Weber,EMEA
+1020,Valentina Cruz,val.cruz@gmail.com,Argentina,Buenos Aires,Food & Beverage,Protein Shake x12,8,45.00,360.00,2024-01-24,Completed,Maria Lopez,LATAM
+1021,N/A,soporte@empresa.com,Argentina,Buenos Aires,Electronics,MacBook Pro M3,1,2499.00,2499.00,2024-01-24,Completed,Maria Lopez,LATAM
+1022,Hiroshi Tanaka,hiroshi@jp.co,Japan,Tokyo,Electronics,Samsung TV 55",3,799.00,2397.00,2024-01-25,Completed,Yuki Sato,APAC
+1023,Priya Sharma,priya@india.in,India,Mumbai,Clothing,Nike Air Max,2,89.99,179.98,2024-01-25,Completed,Raj Kumar,APAC
+1024,Lucas Petit,lucas.p@fr.com,France,Lyon,Food & Beverage,Whey Protein 1kg,6,35.00,210.00,2024-01-26,Completed,Pierre Martin,EMEA
+1025,MARIA FERNANDEZ,m.fernandez@empresa.com,Colombia,Bogotá,Electronics,Laptop Dell XPS,2,1200.00,2400.00,2024-01-26,Completed,Ana Torres,LATAM
+1026,Alex Kim,alex.kim@korea.kr,South Korea,Seoul,Electronics,MacBook Pro M3,2,2499.00,4998.00,27-01-2024,Completed,Yuki Sato,APAC
+1027,Isabella Romano,i.romano@italy.it,Italy,Rome,Clothing,Louis Vuitton Belt,2,450.00,900.00,2024-01-27,Completed,Pierre Martin,EMEA
+1028,Fernando Torres,fernando@torres.ar,Argentina,Rosario,Food & Beverage,Protein Shake x12,3,45.00,135.00,2024-01-28,Pending,Maria Lopez,LATAM
+1029,Emma Johnson,emma.j@usa.com,USA,Los Angeles,Clothing,Zara Dress,6,59.99,359.94,2024-01-28,Completed,Bob Johnson,NA
+1030,Camila Reyes,camila@reyes.co,Colombia,Cali,Electronics,iPhone 15,1,999.00,99.00,2024-01-29,Completed,Ana Torres,LATAM
+1031,david wong,david.wong@hk.com,Hong Kong,Hong Kong,Electronics,Samsung TV 55",4,799.00,3196.00,2024-01-29,completed,Yuki Sato,APAC
+1032,Natalia Kovac,natalia@cz.eu,Czech Republic,Prague,Clothing,Adidas Ultraboost,1,180.00,180.00,2024-01-30,Completed,Hans Weber,EMEA
+1033,Pablo Herrera,pablo.h@cl.com,Chile,Santiago,Food & Beverage,Whey Protein 1kg,4,35.00,140.00,30-01-2024,Completed,Maria Lopez,LATAM
+1034,Yuki Yamamoto,yuki@yamamoto.jp,Japan,Osaka,Electronics,MacBook Pro M3,1,2499.00,2499.00,2024-01-30,COMPLETED,Yuki Sato,APAC
+1035,Sarah Connor,sarah@future.com,USA,Dallas,Electronics,Laptop Dell XPS,3,1200.00,3600.00,2024-01-31,Completed,Bob Johnson,NA
+1036,Monica Belluci,monica@italy.com,Italy,Milan,Clothing,Louis Vuitton Belt,3,450.00,1350.00,2024-01-31,Completed,Pierre Martin,EMEA
+1037,Andrés Gutierrez,andres@gut.mx,Mexico,Puebla,Food & Beverage,Protein Shake x12,,45.00,,2024-02-01,Pending,Carlos Ruiz,LATAM
+1038,Rachel Green,rachel@friends.com,USA,New York,Clothing,Zara Dress,2,59.99,119.98,2024-02-01,Completed,Bob Johnson,NA
+1039,Omar Hassan,omar@eg.com,Egypt,Cairo,Electronics,iPhone 15,2,999.00,1998.00,2024-02-02,Completed,Hans Weber,EMEA
+1040,Lucia Mendez,lucia.m@peru.pe,Peru,Lima,Electronics,Samsung TV 55",1,799.00,799.00,02-02-2024,Cancelled,Ana Torres,LATAM
