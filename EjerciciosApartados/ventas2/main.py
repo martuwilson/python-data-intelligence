@@ -29,3 +29,36 @@ print('\nDescripción estadística:\n', df.describe())
 for col in ['status', 'region', 'product_category']:
     print(f"\nValores únicos en '{col}':")
     print(df[col].value_counts())
+
+#estandarizar fechas
+df['order_date'] = pd.to_datetime(df['order_date'], errors='coerce', dayfirst=True)  # Convertir a datetime, forzando errores a NaT
+# Verificar que el tipo cambió
+print(df['order_date'].dtype)        # Debería decir: datetime64[ns]
+
+# Ver si quedó algún NaT (fecha que no pudo parsearse)
+print(df['order_date'].isnull().sum())  # Debería ser 0
+
+# Preview de las fechas convertidas
+print(df[['order_id', 'order_date']].head(10))
+
+#Limpiar columna status
+# Convertir a minúsculas y eliminar espacios
+df['status'] = df['status'].str.lower().str.strip()
+# Ver valores únicos después de la limpieza
+print("\nValores únicos en 'status' después de limpieza:")
+print(df['status'].value_counts())
+
+
+#Tratar valores nulos y placeholders
+#customer_name tiene celdas vacias y valor literal como "N/A". Reemplazar por Unknown
+df['customer_name'] = df['customer_name'].replace(['', 'N/A'], 'Unknown')
+# Verificar cambios
+print("\nValores únicos en 'customer_name' después de limpieza:")
+print(df['customer_name'].value_counts())
+
+#quantity tiene NaNs → imputalos con la mediana
+df['quantity'] = df['quantity'].fillna(df['quantity'].median())
+
+#customer_email tiene emails inválidos (sin @ completo) → marcalos con un flag booleano email_valido
+df['email_valido'] = df['customer_email'].str.contains(r'^[^@]+@[^@]+\.[^@]+$', na=False)
+
